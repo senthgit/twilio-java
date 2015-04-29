@@ -286,4 +286,13 @@ public class IncomingPhoneNumber extends InstanceResource<TwilioRestClient> {
 	public String getAddressRequirements() {
 		return this.getProperty("address_requirements");
 	}
+
+	/**
+	 * Retuns Gateway sid
+	 * 
+	 * @return Gateway sid
+	 */
+	public String getGatewaySid() {
+		return this.getProperty("gateway_sid");
+	}
 }
